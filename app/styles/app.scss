@@ -1,0 +1,31 @@
+@import 'mbkit-ember';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 8px 8px 300px 8px;
+}
+
+.sections {
+  border: 1px solid var(--neutral-light);
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+.sections-bg {
+  background: #eee;
+}
+
+.sections-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-gap: 16px;
+}
+
+.heading {
+  margin-bottom: 8px;
+}
+
